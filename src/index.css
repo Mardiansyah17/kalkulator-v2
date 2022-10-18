@@ -1,8 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
     font-family: "Poppins";
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
   }
 .background{
     background: linear-gradient(167.27deg, #95B8FF -5.94%, rgba(0, 57, 171, 0.19) 103.62%);
